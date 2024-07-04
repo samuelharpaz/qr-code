@@ -16,4 +16,32 @@ body {
   font-weight: 400;
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.card {
+  width: 325px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.text {
+  text-align: center;
+  padding: 30px 10px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-weight: 700;
 }
